@@ -20,13 +20,12 @@ print(f"{MESSAGE_COLOR}The enviroment will be created automatically")
 print(f"with the name ds or tf in case that it does not exist {RESET_ALL}")
 
 if env_exist(project_packages):
-    print(f"{MESSAGE_COLOR}Activating environment {project_packages} {RESET_ALL}")
-    subprocess.run(f"conda init zsh && conda activate ds",shell=True, executable='zsh')
-    #subprocess.call(['conda', 'activate',project_packages], shell=True, executable='zsh')
+    print(f"{MESSAGE_COLOR}Run conda activate {project_packages} {RESET_ALL}")
+
 else:
-    print(f"{MESSAGE_COLOR}Activating environment {project_packages} {RESET_ALL}")
-    env_path = '../'+project_packages +'_'+'environment.yaml'
-    subprocess.call(['conda', 'create','-f',env_path], shell=True, executable='zsh')
+    
+    env_path = project_packages +'_'+'environment.yaml'
+    print(f"{MESSAGE_COLOR}Run conda env create -f {env_path} {RESET_ALL}")
 
 
 
