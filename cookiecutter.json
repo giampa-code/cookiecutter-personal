@@ -6,7 +6,7 @@
     "project_author_email": "Yout email (or your organization/company/team)",
     "project_description": "A short description of the project.",
     "project_open_source_license": ["No license file", "MIT", "BSD-3-Clause"],
-    "project_packages": ["All", "Minimal"],
-    "python_version": "3.7",
+    "project_packages": ["ds", "tf"],
+    "python_version": "3.9.12",
     "project_version": "0.1.0"
 }

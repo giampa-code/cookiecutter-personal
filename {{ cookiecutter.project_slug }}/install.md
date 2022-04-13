@@ -7,16 +7,18 @@
 
 ## Create environment
 
+
+For the standard ds env
 ```bash
-conda env create -f environment.yml
-activate {{ cookiecutter.project_slug }}
+conda env create -f ds_environment.yml
+conda activate ds
 ```
 
-or 
+For the ds env with tensorflow
 
 ```bash
-mamba env create -f environment.yml
-activate {{ cookiecutter.project_slug }}
+mamba env create -f tf_environment.yml
+conda activate tf
 ```
 
 The packages necessary to run the project are now installed inside the conda environment.
