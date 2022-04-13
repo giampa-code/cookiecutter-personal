@@ -1,6 +1,10 @@
 # {{ cookiecutter.project_name }}
 
 {{ cookiecutter.project_description }}
+
+## Results and conclusions
+
+Please read [results.md](./reports/results.MD) for seeing the results and conclusions of the analysis.
   
 ## Installation guide
 
@@ -8,7 +12,6 @@ Please read [install.md](install.md) for details on how to set up this project.
 
 ## Project Organization
 
-**modificar**
 
     ├── LICENSE
     ├── tasks.py           <- Invoke with commands like `notebook`.
@@ -28,13 +31,11 @@ Please read [install.md](install.md) for details on how to set up this project.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, MDs, etc.
     │   └── figures         <- Generated graphics and figures to be used in reporting.
     │
-    ├── environment.yml    <- The requirements file for reproducing the analysis environment.
+    ├── *environment.yml    <- The requirements file for reproducing the analysis environment. 
     │
-    ├── .here              <- File that will stop the search if none of the other criteria
-    │                         apply when searching head of project.
     │
     ├── setup.py           <- Makes project pip installable (pip install -e .)
     │                         so {{ cookiecutter.project_module_name }} can be imported.
