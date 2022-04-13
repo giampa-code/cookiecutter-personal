@@ -22,15 +22,13 @@ conda install -c conda-forge cookiecutter
 
 In a folder where you want your project generated:
 
-**modificar**
-
 ```bash
-cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
+cookiecutter https://github.com/giampa14/cookiecutter-personal
 ```
 
 ## Resulting directory structure
 
-**modificar**
+
 
     ├── LICENSE
     ├── tasks.py           <- Invoke with commands like `notebook`.
