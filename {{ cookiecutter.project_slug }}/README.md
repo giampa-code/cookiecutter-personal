@@ -4,7 +4,7 @@
 
 ## Results and conclusions
 
-Please read [results.md](./reports/results.MD) for seeing the results and conclusions of the analysis.
+Please read [results.md](./reports) for seeing the results and conclusions of the analysis.
   
 ## Installation guide
 
